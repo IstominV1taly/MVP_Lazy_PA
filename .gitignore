@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local runs and artifacts
+runs/*
+!runs/.gitkeep
+
+# Local data outputs
+data/processed/*
+!data/processed/.gitkeep
+
+# Environment files
+.env
