@@ -1,5 +1,5 @@
 # MVP Lazy PA
-![alt text](Lazy_PA_icon.png)
+![Lazy_PA_logo](design/resize.png)
 ## Overview
 
 My first py try. My first try as a product analysis.
@@ -50,7 +50,6 @@ Prepare conclusions
 
 MVP_Lazy_PA/
 ├── app/
-│   ├── __init__.py
 │   ├── config.py
 │   ├── data_processing.py
 │   ├── analysis.py
@@ -62,6 +61,7 @@ MVP_Lazy_PA/
 ├── tests/
 │   └── test_config.py
 ├── interface.ipynb
+├── design/
 ├── README.md
 ├── pyproject.toml
 └── requirements.txt
