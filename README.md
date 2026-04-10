@@ -1,4 +1,5 @@
-# MVP_Lazy_PA
+# MVP Lazy PA
+![alt text](Lazy_PA_icon.png)
 ## Overview
 
 My first py try. My first try as a product analysis.
@@ -48,14 +49,19 @@ Prepare conclusions
 ## Project structure
 
 MVP_Lazy_PA/
-├─ app/
-│ ├─ steps/
-│ └─ config.py
-├─ bumper/
-├─ input/
-│ └─ sintetic_raw_dataset.csv
-├─ interface.ipynb
-├─ test.py
-├─ README.md
-├─ pyproject.toml
-└─ requirements.txt
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_processing.py
+│   ├── analysis.py
+│   ├── interpretation.py
+│   └── conclusions.py
+├── input/
+│   └── sintetic_raw_dataset.csv
+├── bumper/
+├── tests/
+│   └── test_config.py
+├── interface.ipynb
+├── README.md
+├── pyproject.toml
+└── requirements.txt
