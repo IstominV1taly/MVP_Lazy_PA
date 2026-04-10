@@ -2,52 +2,58 @@
 ![Lazy_PA_logo](design/resize.png)
 ## Overview
 
-My first py try. My first try as a product analysis.
-I try to keep my use of LLM programs to a minimum.
+**MVP_Lazy_PA** is my first Python project and my first attempt at building a simple product analytics workflow.
 
-It takes:
-nothing
+The goal of this project is not to create a perfect production-ready system from the start, but to build a working prototype step by step, improve the project structure, and practice both programming fundamentals and analytical thinking.
 
-And produces:
-nothing
-
-The project is designed as an MVP first.
+This repository is intentionally simple. It is an early MVP that I use to learn, experiment, and gradually turn separate ideas into a structured workflow.
 
 ---
 
-## Why this project exists
+## Project goal
 
-The goal is to create a working prototype and practice both programming fundamentals and product analytics logic.
+The main goal of the project is to build a small but clear analytical pipeline that can:
 
----
+1. load raw data,
+2. process and clean it,
+3. analyze key patterns,
+4. interpret the results,
+5. prepare final conclusions.
 
-## Current MVP capabilities
-
-It already includes:
-
-a basic project structure
-a notebook interface
-separate modules for future data processing, analysis, interpretation, and conclusions
-configuration and dependency files
-
-The analytical logic is still under development...
+At this stage, the project focuses more on building a solid structure than on implementing complex business logic.
 
 ---
 
-## Main workflow
+## Current status
 
-Planned workflow:
+At the moment, the project already includes:
 
-Load raw data
-Process and clean data
-Analyze key patterns
-Interpret the results
-Prepare conclusions
+- a basic package structure,
+- a Jupyter notebook interface for experiments,
+- separate modules for future processing and analysis steps,
+- configuration and dependency files,
+- a synthetic dataset for testing the workflow,
+- first steps toward cleaner project organization.
+
+The analytical logic is still under development.
+
+---
+
+## Planned workflow
+
+The expected workflow of the project is:
+
+1. **Load raw data**
+2. **Process and clean data**
+3. **Analyze patterns and metrics**
+4. **Interpret results**
+5. **Prepare conclusions and recommendations**
 
 ---
 
 ## Project structure
 
+```text
 MVP_Lazy_PA/
 ├── app/
 │   ├── config.py
@@ -55,13 +61,13 @@ MVP_Lazy_PA/
 │   ├── analysis.py
 │   ├── interpretation.py
 │   └── conclusions.py
+├── bumper/
+├── design/
 ├── input/
 │   └── sintetic_raw_dataset.csv
-├── bumper/
 ├── tests/
-│   └── test_config.py
 ├── interface.ipynb
-├── design/
+├── resize.png
 ├── README.md
 ├── pyproject.toml
 └── requirements.txt
